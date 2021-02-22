@@ -5,7 +5,7 @@ using UnityEngine;
 public class CubeRotate : MonoBehaviour
 {
     // Public variable for turret turn speed
-    public float turnSpeed = 5.0f; 
+   // public float turnSpeed = 5.0f; 
     private GameObject MyCube;
     private float d;
 
@@ -13,24 +13,22 @@ public class CubeRotate : MonoBehaviour
     void Start()
     {
         MyCube = GameObject.Find("RotateCube");
-        d = (float)0.5;
+        d = (float)0.3;
     }
 
     void Update()
     {
         MyCube.transform.Rotate(0, 2*d, 0);
-        float rotation = 0.0f;
-        // Check if Q or E key and calculate rotation
-        if (Input.GetKey(KeyCode.Q))
-        {
-            rotation = -turnSpeed * Time.deltaTime;
-        }
-        else if (Input.GetKey(KeyCode.E))
-        {
-            rotation = turnSpeed * Time.deltaTime;
-        }
-        // Rotate turret dependent on calculated rotation
-        Transform t = gameObject.transform;
-        t.Rotate(0.0f, rotation, 0.0f);
+       // float rotation = 0.0f;
+       // if (Input.GetKey(KeyCode.Q))
+       // {
+       //     rotation = -turnSpeed * Time.deltaTime;
+       // }
+       // else if (Input.GetKey(KeyCode.E))
+       // {
+       //     rotation = turnSpeed * Time.deltaTime;
+       // }
+       // Transform t = gameObject.transform;
+       // t.Rotate(0.0f, rotation, 0.0f);
     }
 }

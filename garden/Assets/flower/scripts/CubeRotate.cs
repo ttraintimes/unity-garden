@@ -5,7 +5,7 @@ using UnityEngine;
 public class CubeRotate : MonoBehaviour
 {
     // Public variable for turret turn speed
-    public float turnSpeed = 20.0f; 
+    public float turnSpeed = 5.0f; 
     private GameObject MyCube;
     private float d;
 

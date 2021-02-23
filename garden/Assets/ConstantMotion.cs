@@ -43,7 +43,7 @@ public class ConstantMotion : MonoBehaviour
 
         public float Delta {
             get {
-                var scale = (1.2f - randomness * randomScalar); // speed
+                var scale = (1.1f - randomness * randomScalar); // speed
                 return velocity * scale * Time.deltaTime;
             }
         }

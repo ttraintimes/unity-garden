@@ -18613,11 +18613,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4171562829587174, guid: 18b8af6b3106d4940a5e534dc18c0344, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 291.31427
+      value: 384.8
       objectReference: {fileID: 0}
     - target: {fileID: 4171562829587174, guid: 18b8af6b3106d4940a5e534dc18c0344, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -104.67877
+      value: -147.5
       objectReference: {fileID: 0}
     - target: {fileID: 4171562829587174, guid: 18b8af6b3106d4940a5e534dc18c0344, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38605,7 +38605,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800485796}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &800485800
 Camera:
   m_ObjectHideFlags: 0
@@ -49272,7 +49272,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044524014}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1044524018
 Camera:
   m_ObjectHideFlags: 0
@@ -93381,7 +93381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0172b4f6559934f6fa658ba1d494a3b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnSpeed: 0.8
+  turnSpeed: 1.5
 --- !u!54 &2128338088
 Rigidbody:
   m_ObjectHideFlags: 0

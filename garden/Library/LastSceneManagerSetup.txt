@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Japanese garden/Waldemarst/JapaneseGardenPackage/Scenes/JapaneseGarden.unity
+- path: Assets/MenuScene/MainScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

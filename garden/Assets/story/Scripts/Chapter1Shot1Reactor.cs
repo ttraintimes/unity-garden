@@ -10,7 +10,7 @@ public class Chapter1Shot1Reactor : MonoBehaviour {
 	public new AudioSource audio;
 	public GameObject highlight;
 	public new Camera camera;
-	private bool EnterLightGame = false;
+	private bool EnterGame = false;
 
 	IEnumerator Fading(string Scene_name,LoadSceneMode mode)
 	{
@@ -21,7 +21,7 @@ public class Chapter1Shot1Reactor : MonoBehaviour {
 		yield return new WaitForSeconds (GameObject.Find("blackfading").GetComponent<FadingController>().BeginFade(-1));
 	}
 
-	void GotoLightGame()
+	void GotoGame()
 	{
 		GameObject.Find ("LightGame_highlight").GetComponent<SpriteRenderer> ().enabled = false;
 		StartCoroutine (Fading("flower",LoadSceneMode.Additive));
@@ -51,14 +51,14 @@ public class Chapter1Shot1Reactor : MonoBehaviour {
 				if (frame.Contains (new Vector2 (mouse_pos.x, mouse_pos.y),true) || frame.Contains (new Vector2 (touch_pos.x, touch_pos.y),true)) {
 
 
-					if (!EnterLightGame && !GlobalVariables.LightGameFinished) {
-						EnterLightGame = true;
+					if (!EnterGame && !GlobalVariables.LightGameFinished) {
+						EnterGame = true;
 
 						// Switch scene to lightgame
-						GotoLightGame ();
+						GotoGame ();
 					}
 						
-					Debug.Log ("Go to light game");
+					Debug.Log ("Go to game1");
 				}
 			}
 		}

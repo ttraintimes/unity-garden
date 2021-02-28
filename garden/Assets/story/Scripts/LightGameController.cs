@@ -60,7 +60,7 @@ public class LightGameController : MonoBehaviour {
 
 			camera.GetComponent<AudioSource> ().Stop ();
 
-			StartCoroutine (FadingUnload ("LightGame"));
+			StartCoroutine (FadingUnload ("flower"));
 		}
 	}
 
@@ -170,7 +170,7 @@ public class LightGameController : MonoBehaviour {
 			GlobalVariables.LightGameScores = 10;
 		}
 
-		StartCoroutine (FadingUnload ("LightGame"));
+		StartCoroutine (FadingUnload ("flower"));
 
 		if(GameObject.Find("BGMplayer") != null)
 			GameObject.Find ("BGMplayer").GetComponent<AudioSource> ().Play ();

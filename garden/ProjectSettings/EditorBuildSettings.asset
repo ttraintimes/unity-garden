@@ -50,4 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/story/_Scenes/WechatGame.unity
     guid: c368221fb2993b7439c59653f0689f96
+  - enabled: 1
+    path: Assets/flower/flower.unity
+    guid: f01931e1c828240f5a2830887043df96
+  - enabled: 1
+    path: Assets/Japanese garden/Waldemarst/JapaneseGardenPackage/Scenes/JapaneseGarden.unity
+    guid: 80a26d31b4c6248999e489e0894e9395
   m_configObjects: {}

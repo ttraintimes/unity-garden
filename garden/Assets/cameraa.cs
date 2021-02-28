@@ -12,7 +12,7 @@ namespace UnityLibary
         // place the gameobject that you want to move to the controller placeholder
         public CharacterController controller;
 
-        public float speed = 5f;
+        public float speed = 15f;
 
         void Update()
         {
@@ -26,13 +26,13 @@ namespace UnityLibary
             //Rotate clockwise
             if (Input.GetKey(KeyCode.E))
             {
-                transform.RotateAround(transform.position, Vector3.up, 100 * Time.deltaTime);
+                transform.RotateAround(transform.position, Vector3.up, 20*Time.deltaTime);
             }
 
             // Rotate anticlockwise
             if (Input.GetKey(KeyCode.Q))
             {
-                transform.RotateAround(transform.position, -Vector3.up, 100 * Time.deltaTime);
+                transform.RotateAround(transform.position, -Vector3.up, 20*Time.deltaTime);
             }
 
         }

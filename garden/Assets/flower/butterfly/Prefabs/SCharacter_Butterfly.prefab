@@ -102,7 +102,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4706662666363896}
   - component: {fileID: 137133661906984218}
-  - component: {fileID: 5618667184354256538}
   m_Layer: 0
   m_Name: Butterfly_Model
   m_TagString: Untagged
@@ -181,18 +180,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0918808, y: 0.00096556544, z: 0}
     m_Extent: {x: 0.48654664, y: 0.07905274, z: 0.67339957}
   m_DirtyAABB: 0
---- !u!114 &5618667184354256538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466288339603780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d84fda8af76c24c46bdc02e80118e9b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1469263317997872
 GameObject:
   m_ObjectHideFlags: 0

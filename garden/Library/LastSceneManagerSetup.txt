@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/flower/flower.unity
+- path: Assets/story/_Scenes/Chapter1_1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -422,8 +422,8 @@ GameObject:
   m_Component:
   - component: {fileID: 643622602}
   - component: {fileID: 643622601}
-  - component: {fileID: 643622603}
   - component: {fileID: 643622604}
+  - component: {fileID: 643622603}
   m_Layer: 0
   m_Name: 'gardenshot1 '
   m_TagString: Untagged

@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/story/_Scenes/Ending.unity
     guid: 30529f172b6f31b488b98928c2bcd45a
   - enabled: 0
-    path: Assets/story/_Scenes/LightGame.unity
+    path: 
     guid: f774e36daff79814dbe45642d91fcc7e
   - enabled: 1
     path: Assets/story/_Scenes/MenuGame.unity
@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SuicideGarden/Scenes/storyshot2.unity
     guid: f425e8baceece4c89b5f23635fd05892
+  - enabled: 1
+    path: Assets/SuicideGarden/Scenes/menu.unity
+    guid: c211d8a2924334d3597ff49224f68a27
   m_configObjects: {}

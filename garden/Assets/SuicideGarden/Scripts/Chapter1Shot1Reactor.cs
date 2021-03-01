@@ -23,7 +23,7 @@ public class Chapter1Shot1Reactor : MonoBehaviour {
 
 	void GotoGame()
 	{
-		GameObject.Find ("LightGame_highlight").GetComponent<SpriteRenderer> ().enabled = false;
+		GameObject.Find ("highlight").GetComponent<SpriteRenderer> ().enabled = false;
 		StartCoroutine (Fading("flower",LoadSceneMode.Additive));
 	}
 
@@ -58,7 +58,7 @@ public class Chapter1Shot1Reactor : MonoBehaviour {
 						GotoGame ();
 					}
 						
-					Debug.Log ("Go to game1");
+					Debug.Log ("Go to game2");
 				}
 			}
 		}
